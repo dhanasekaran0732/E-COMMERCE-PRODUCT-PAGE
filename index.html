@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smartwatch | MyStore</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">MyStore</div>
+    <input type="text" placeholder="Search for products, brands and more..." />
+    <button class="search-btn">🔍</button>
+  </header>
+
+  <!-- Main Product Section -->
+  <div class="product-container">
+    <!-- Left Image Section -->
+    <div class="image-gallery">
+      <div class="thumbs">
+        <img src="download.jpg" alt="1" />
+        <img src="0.jpg" alt="2" />
+        <img src="7.jpg" alt="3" />
+        <img src="https://images.unsplash.com/photo-1603354350317-6f7aaa5911c5?auto=format&fit=crop&w=200&q=80" alt="4" />
+      </div>
+      <img id="mainImage" src="10.jpg" alt="Smartwatch" class="main-image" />
+    </div>
+
+    <!-- Right Product Details -->
+    <div class="product-details">
+      <h1>SleekFit Smartwatch Pro</h1>
+      <p class="rating">⭐ 4.6 | 2,453 Ratings & 312 Reviews</p>
+      <p class="offer">Special Price — Get extra 10% off</p>
+
+      <div class="price">
+        ₹12,999 <span class="old-price">₹16,999</span>
+        <span class="discount">(23% off)</span>
+      </div>
+
+      <ul class="features">
+        <li>Heart Rate & Sleep Tracking</li>
+        <li>Bluetooth 5.0 + App Support</li>
+        <li>7-day Battery Life</li>
+        <li>1-Year Warranty</li>
+      </ul>
+
+      <div class="quantity">
+        <button id="minus">−</button>
+        <span id="qty">1</span>
+        <button id="plus">+</button>
+      </div>
+
+      <div class="buttons">
+        <button class="btn add-cart">🛒 Add to Cart</button>
+        <button class="btn buy-now">⚡ Buy Now</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
